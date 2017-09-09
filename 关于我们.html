@@ -1,0 +1,308 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>尚壹修-关于我们</title>
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/public.css"/>
+    <link rel="stylesheet" href="css/css.css"/>
+    <script src="js/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/jquery.SuperSlide.2.1.1.js"></script>
+    <!--[if lt IE 9]>
+    <script src="https://cdn.bootcss.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+    <script src="https://cdn.bootcss.com/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+    <script>
+        $(function () {
+            jQuery('.banner').slide({
+                mainCell:'.bd ul',
+                effect:'fade',
+                autoPlay:true,
+                autoPage:'<li><a></a></li>'
+            })
+
+            jQuery('.slide').slide({
+                mainCell:'.bd ul',
+                vis:4,
+                scroll:1,
+                effect:'left',
+                autoPlay:false,
+                autoPage:true,
+                prevCell:'.prev',
+                nextCell:'.next'
+            })
+
+            $('.phone-section .ul>li:gt(0)').hide();
+
+            var li_0=$('.phone-section .nav-tabs>li');
+            var li_1=$('.phone-section .ul>li');
+            li_0.click(function () {
+                $(this).addClass('active').siblings('li').removeClass('active');
+                li_1.eq(li_0.index(this)).fadeIn().siblings('li').hide();
+            })
+
+            $('.zh .ul>li:gt(0)').hide();
+
+            var li_2=$('.zh .nav-tabs>li');
+            var li_3=$('.zh .ul>li');
+            li_2.click(function () {
+                $(this).addClass('active').siblings('li').removeClass('active');
+                li_3.eq(li_2.index(this)).fadeIn().siblings('li').hide();
+            })
+        })
+
+    </script>
+
+</head>
+<body>
+
+<div class="top">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12 text-right">
+<span>您好，请<a href="" class="ml-0">登录</a></span><a href="" class="a">免费注册</a><a href="">个人中心</a><a href="">帮助中心</a><a href="">网站导航</a>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<nav class="navbar navbar-default">
+    <div class="container">
+        <div class="navbar-header">
+            <a href="#" class="navbar-brand">
+                <img src="images/logo-0.png" alt="" class="img-responsive"/>
+            </a>
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target=".navbar-collapse" aria-expanded="false">
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+        </div>
+
+        <div class="collapse navbar-collapse">
+            <ul class="nav navbar-nav navbar-right">
+                <li >
+                    <a href="">首页</a>
+                </li>
+                <li>
+                    <a href="">手机维修</a>
+                </li>
+                <li>
+                    <a href="">回收置换</a>
+                </li>
+                <li>
+                    <a href="">修哥商城</a>
+                </li>
+                <li class="active">
+                    <a href="">关于我们</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</nav>
+
+
+<!--关于我们-->
+<div class="zh about">
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-12">
+                <h2>关于我们</h2>
+                <div class="pub-line center-block"></div>
+                <br/>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-12 col-xs-12">
+                <p>尚壹修是北京凌云天丞数码科技有限公司打造的集维修、回收置换、共享于一体的线上&线下服务提供商。我们依托互联网，致力满足各类电子设备维修、产品更迭等需求，为您提供更优质、便捷、即时的解决方案。</p>
+                <br/>
+                <p>尚壹修将为广大手机用户提供包括电子产品上门极速修、回收、以旧换旧（新）、软件维护等一站式电子产品售后服务。</p>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+<div class="ts container-fluid service-hx">
+    <div class="row">
+        <div class="col-sm-9 fln center-block col-xs-12">
+            <div class="container-fluid">
+                <div class="row">
+                    <h2>核心服务</h2>
+                    <div class="pub-line center-block"></div>
+                    <br/>
+
+                </div>
+                <div class="row">
+                    <div class="col-md-5ths">
+                        <a href="">
+                            <div class="img">
+                                <img src="images/s0.png" alt="" class="img-responsive center-block"/>
+                            </div>
+                            <h4>免费上门</h4>
+                            <p class="p">对于已开城将提供免 <br/>费上门服务</p>
+                        </a>
+                    </div>
+                    <div class="col-md-5ths">
+                        <a href="">
+                            <div class="img">
+                                <img src="images/s1.png" alt="" class="img-responsive center-block"/>
+                            </div>
+                            <h4>极速响应</h4>
+
+                            <p>工程师7X24待命，随 <br/>时随地便捷维修</p>
+                        </a>
+                    </div>
+                    <div class="col-md-5ths">
+                        <a href="">
+                            <div class="img">
+                                <img src="images/s2.png" alt="" class="img-responsive center-block"/>
+                            </div>
+                            <h4>原厂品质</h4>
+
+                            <p>维修部件均为原厂 <br/>品质，节约您的维 <br/>修成本</p>
+                        </a>
+                    </div>
+                    <div class="col-md-5ths">
+                        <a href="">
+                            <div class="img">
+                                <img src="images/s3.png" alt="" class="img-responsive center-block"/>
+                            </div>
+                            <h4>180天care</h4>
+                            <p>放心品质，让您无后 <br/>顾之忧</p>
+                        </a>
+                    </div>
+                    <div class="col-md-5ths">
+                        <a href="">
+                            <div class="img">
+                                <img src="images/s4.png" alt="" class="img-responsive center-block"/>
+                            </div>
+                            <h4>全程录像</h4>
+
+                            <p>让维修更安全，订单 <br/>全程可追溯</p>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+</div>
+
+
+
+<!--服务流程-->
+<div class="service service0">
+    <h2>服务流程</h2>
+    <div class="pub-line center-block"></div>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-4 col-xs-6">
+                <a href="" class="thumbnail">
+                    <img src="images/img-0.png" alt="" />
+                    <div class="caption">
+                        <p>上门服务</p>
+
+                        <p>零部件统一领取；视频全程监控；专业极速修；用户全程参与</p>
+                    </div>
+                </a>
+            </div>
+            <div class="col-md-4 col-xs-6">
+                <a href="" class="thumbnail">
+                    <img src="images/img-0.png" alt="" />
+                    <div class="caption">
+                        <p>验收结单</p>
+                        <p>修机后用户验收，不满意不收费；支持线上线下支付；价格公开透明</p>
+                    </div>
+                </a>
+            </div>
+            <div class="col-md-4 col-xs-6">
+                <a href="" class="thumbnail">
+                    <img src="images/img-0.png" alt="" />
+                    <div class="caption">
+                        <p>售后回访</p>
+                        <p>收集并总结用户意见；提高与完善服务标准</p>
+                    </div>
+                </a>
+            </div>
+
+        </div>
+    </div>
+</div>
+
+
+
+
+<a href="" class="about-ad center-block">
+    <img src="images/about.jpg" alt="" class="img-responsive"/>
+</a>
+
+
+
+<!--link-->
+<div class="link">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-3 col-xs-12">
+                <a href="">
+                    <img src="images/logo-1.png" alt="" class="img-responsive logo"/>
+                </a>
+            </div>
+            <div class="col-md-6 col-xs-12">
+                <ul class="ul clearfix">
+                    <li>
+                        <h4>首页</h4>
+                    </li>
+                    <li>
+                        <h4>服务项目</h4>
+                        <a href="">手机维修</a>
+                        <a href="">闲置置换</a>
+                        <a href="">修哥商城</a>
+                    </li>
+                    <li>
+                        <h4>帮助中心</h4>
+                        <a href="">用户协议</a>
+                        <a href="">意见反馈</a>
+                        <a href="">在线客服</a>
+                    </li>
+                    <li>
+                        <h4>简介</h4>
+                        <a href="">尚壹修简介</a>
+                        <a href="">企业文化</a>
+                        <a href="">优秀</a>
+                    </li>
+                    <li>
+                        <h4>答疑</h4>
+                        <a href="">为您答疑</a>
+                        <a href="">专业技巧</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="col-md-3"></div>
+        </div>
+    </div>
+</div>
+
+<!--footer-->
+<footer>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6 text-left">
+                <a href="">联系我们</a><a href="">自驾游</a><a href="">网站地图</a><a href="">版权信息</a>
+            </div>
+            <div class="col-md-6 text-right">
+                北京有限责任公司 京备1233432445
+            </div>
+        </div>
+    </div>
+</footer>
+
+
+
+</body>
+</html>

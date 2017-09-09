@@ -1,0 +1,80 @@
+body{
+    font-family: 'MicroSoft Yahei';
+}
+
+ul,ol,li{
+    list-style: none;
+    margin:0;
+    padding: 0;
+}
+a{
+    text-decoration: none;
+}
+a:hover{
+    text-decoration: none;
+}
+p{
+    margin-bottom: 0;
+}
+
+.por{
+    position: relative;
+}
+.dib{
+    display: inline-block;
+}
+.ml-0{
+    margin-left: 0 !important;
+}
+.mr-0{
+    margin-right: 0 !important;
+}
+.pt-0{
+    padding-top: 0 !important;
+}
+.mb-0{
+    margin-bottom: 0 !important;
+}
+.pb-0{
+    padding-bottom: 0 !important;
+}
+textarea{resize:none}
+
+i,em{
+    font-style: normal;
+}
+.fwn{
+    font-weight: normal;
+}
+.f12{
+    font-size: 12px !important;
+}
+.f14{
+    font-size: 14px !important;
+}
+.f16{
+    font-size: 16px !important;
+}
+.f20{
+    font-size: 20px !important;
+}
+.f24{
+    font-size: 24px !important;
+}
+input,textarea,select{
+    /*-webkit-appearance: none;*/
+    border:0;
+    outline: none; /*È¥µôÀ¶É«±ß¿ò*/
+}
+h1,h2,h3,h4,h5,h6{
+    margin-top: 0;
+    margin-bottom: 0;
+}
+.bob-none{
+    border-bottom: none !important;
+}
+.fln{
+    float: none !important;
+}
+/*----------------------------------------------*/
+

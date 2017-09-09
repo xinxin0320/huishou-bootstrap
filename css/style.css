@@ -1,0 +1,408 @@
+.topbar-0{
+    box-shadow: 0 2px 12px 1px rgba(0,0,0,.2);
+}
+.topbar-0 .navbar-default{
+    background: none;
+    height: 80px;
+    margin-bottom: 0;
+    border:none;
+}
+.topbar-0 .navbar-brand {
+    display: inline-block;
+    padding: 0;
+    margin-top: 19px;
+    font-size: 24px;
+    color: #333;
+    vertical-align: middle;
+    height:54px;
+}
+.topbar-0 .navbar-brand >img{
+    display: inline-block;
+    margin-right: 25px;
+}
+.topbar-0 .navbar-header{
+    height:80px;
+}
+
+.syx-sign{
+    height:470px;
+    background: url("../images/banner.jpg") no-repeat center top;
+    background-size: cover;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+
+.syx-sign .sign{
+    max-width: 520px;
+    max-height: 410px;
+    background: #fff;
+    border-radius: 10px;
+    padding-top: 25px;
+    padding-left: 60px;
+    padding-right: 60px;
+}
+.syx-sign .sign .logo{
+    margin-bottom: 18px;
+}
+
+.syx-sign .nav-tabs{
+    height:54px;
+    border-bottom: 1px solid #999999;
+    margin-bottom: 14px;
+}
+.syx-sign .nav-tabs li{
+    width:50%;
+}
+.syx-sign .nav-tabs li a{
+    padding: 0;
+    line-height: 52px;
+    border: none;
+    font-size: 18px;
+    color: #666;
+    text-align: center;
+    font-weight: lighter;
+}
+.syx-sign .nav-tabs li a:hover,.syx-sign .nav-tabs li a:focus{
+    border:none;
+    color: #01a2d7;
+    background: none;
+}
+.syx-sign .nav-tabs li.active a{
+    color: #01a2d7;
+    border-bottom: 2px solid #01a2d7;
+}
+
+.syx-sign .ul>li{
+    border:1px solid #DDDDDD;
+    margin-bottom: 11px;
+    height:45px;
+    width:100%
+}
+.syx-sign .ul>li.focus{
+    border:1px solid #01a2d7;
+}
+.syx-sign .ul>li .input{
+    font-size: 18px;
+    line-height: 43px;
+    padding-left: 5px;
+    float: left;
+    height:43px;
+}
+.syx-sign .ul>li .btn-0{
+    width:100px;
+    height:30px;
+    margin-top: 6px;
+    background: #E1E0E0;
+    color: #a3a3a3;
+    font-size: 14px;
+    font-weight: lighter;
+    text-align: center;
+    line-height: 30px;
+    margin-right: 8px;
+}
+.syx-sign .checkbox label{
+    color: #666;
+}
+.syx-sign .submit{
+    padding: 0;
+    width:100%;
+    height:45px;
+    background: #58B7DF;
+    border:none;
+    text-align: center;
+    line-height: 45px;
+    border-radius: 0;
+    font-size: 18px;
+    font-weight: lighter;
+    color: #fff;
+}
+.syx-sign .bottom{
+    font-size: 18px;
+    color: #666;
+    font-weight: lighter;
+    padding-top: 20px;
+    padding-bottom: 40px;
+}
+.syx-sign .bottom a{
+    background: url("../images/arrow.png") no-repeat right center;
+    padding-right: 15px;
+    color: #00a3d8;
+}
+
+
+footer{
+    text-align: center;
+    font-size: 18px;
+    color: #666;
+    line-height: 40px;
+    padding-top: 10px;
+    font-weight: lighter;
+}
+footer a{
+    color: #666;
+    padding: 0 30px;
+    vertical-align: top;
+    display: inline-block;
+}
+footer .icon-bar{
+    width:1px;
+    height:12px;
+    background: #444444;
+    display: inline-block;
+}
+
+
+
+
+
+
+/*ÕÒ»ØÃÜÂë*/
+.topbar-0 .navbar-nav{
+    margin-top: 20px;
+}
+.topbar-0 .navbar-nav a{
+    font-size: 18px;
+    color: #333;
+}
+.topbar-0 .navbar-nav a.a:after{
+    content: '';
+    width:1px;
+    height:17px;
+    background: #333;
+    position: absolute;
+    top:50%;
+    right:0;
+    margin-top: -8px;
+}
+
+
+.reg{
+    max-width: 430px;
+    margin-top: 90px;
+    margin-bottom: 100px;
+}
+.reg .ul{
+    margin-top: 50px;
+}
+.reg .ul>li{
+    width: 100%;
+    border: 1px solid #DDDDDD;
+    height:50px;
+    margin-bottom: 32px;
+    padding: 1px 0;
+}
+.reg .ul>li .input{
+    font-size: 18px;
+    line-height: 46px;
+    padding-left: 17px;
+    float: left;
+    height:46px;
+    color: #ccc;
+}
+.reg .ul>li.focus{
+    border:1px solid #01a2d7;
+}
+.reg .hint{
+    height:38px;
+    line-height: 38px;
+    color: #666;
+    font-size: 14px;
+}
+.reg .hint a{
+    color: #01a2d7;
+}
+.reg .hint .icon{
+    background: url("../images/icon.png") no-repeat left center;
+    padding-left: 24px;
+    color: #01a2d7;
+    margin-left: 18px;
+}
+.reg  .submit{
+    padding: 0;
+    width:100%;
+    height:50px;
+    background: #58B7DF;
+    border:none;
+    text-align: center;
+    line-height: 50px;
+    border-radius: 0;
+    font-size: 18px;
+    font-weight: lighter;
+    color: #fff;
+    margin-top: 10px;
+}
+.reg .col-md-4{
+    padding: 0;
+    color: #cccccc;
+    font-size: 14px;
+    font-weight: lighter;
+    line-height: 30px;
+    text-align: center;
+}
+.reg .col-md-4 .img-circle{
+    width:29px;
+    height:29px;
+    background: #DDDDDD;
+    font-size: 18px;
+    text-align: center;
+    line-height: 29px;
+    color: #fff;
+    margin-bottom: 20px;
+}
+.reg .col-md-4 .img-circle-0:after{
+    content: '';
+    width:140px;
+    height:3px;
+    border-top: 1px solid #ddd;
+    border-right: 1px solid #ddd;
+    position: absolute;
+    top:12px;
+    right:-70px;
+}
+.reg .col-md-4.active{
+    color: #01a2d7;
+}
+.reg .col-md-4.active .img-circle{
+    background: #01a2d7;
+}
+.reg .container-fluid .row{
+    margin-left: -80px;
+    margin-right: -80px;
+}
+
+.reg .ul>li .btn-0{
+    width:100px;
+    height:30px;
+    margin-top: 9px;
+    background: #E1E0E0;
+    color: #a3a3a3;
+    font-size: 14px;
+    font-weight: lighter;
+    text-align: center;
+    line-height: 30px;
+    margin-right: 10px;
+}
+
+.reg .account-name{
+    font-size: 18px;
+    font-weight: lighter;
+    color: #666;
+    margin-top: 35px;
+    text-align: center;
+}
+
+.regbox{
+    padding-top: 60px;
+    padding-bottom: 60px;
+
+}
+.regbox .left{
+    font-size: 14px;
+    line-height: 24px;
+    color: #666;
+    text-indent: 2em;
+    max-height: 540px;
+    overflow-y: scroll;
+    padding-bottom: 30px;
+    margin-bottom: 30px;
+}
+.regbox .left a{
+    color: #333;
+    font-weight: bold;
+    padding-top: 10px;
+    text-indent: 0;
+}
+.regbox .left h3{
+    text-align: center;
+    text-indent: 0;
+    font-size: 18px;
+    color: #0398d0;
+    margin-bottom: 5px;
+}
+
+.reg-form{
+    max-width: 400px;
+}
+.reg-form .ul>li{
+    height:50px;
+    border:1px solid #DDDDDD;
+    float:left;
+    width:100%;
+}
+.reg-form .ul>li i{
+    width:120px;
+    display: inline-block;
+    padding-left: 15px;
+    line-height: 48px;
+    font-size: 14px;
+    color: #666;
+    float: left;
+}
+.reg-form .ul>li input[type='text']{
+    padding-left: 10px;
+    line-height: 48px;
+    height:48px;
+    float:  left;
+    font-size: 14px;
+    color: #ccc;
+    font-weight: lighter;
+}
+.reg-form .ul>li.li{
+    height:35px;
+    border:none;
+}
+.reg-form .ul>li .txt{
+    margin-left: 15px;
+    background: url(../images/icon-0.png) no-repeat left center;
+    padding-left: 21px;
+    font-size: 14px;
+    color: #ccc;
+    line-height: 35px;
+}
+
+.reg-form .ul>li .yzm{
+    width:109px;
+    height:46px;
+    margin-top: 1px;
+    margin-right: 1px;
+}
+
+.reg-form .ul>li .get-yzm{
+    width:109px;
+    height:46px;
+    margin-top: 1px;
+    margin-right: 1px;
+    background: #F2F2F2;
+    font-size: 14px;
+    font-weight: lighter;
+    color: #666;
+    text-align: center;
+    line-height: 46px;
+}
+
+.reg-form .submit{
+    padding: 0;
+    width:100%;
+    height:50px;
+    background: #58B7DF;
+    border:none;
+    text-align: center;
+    line-height: 50px;
+    border-radius: 0;
+    font-size: 18px;
+    font-weight: lighter;
+    color: #fff;
+    margin-top: 20px;
+}
+.reg-form .checkbox{
+    margin-top: 30px;
+    color: #666;
+}
+.reg-form .checkbox a{
+    color: #01a2d7;
+}
+
+
+
+

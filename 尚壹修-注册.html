@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>尚壹修-注册</title>
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/public.css"/>
+    <link rel="stylesheet" href="css/style.css"/>
+    <link rel="stylesheet" href="css/media.css"/>
+    <script src="js/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/jquery.SuperSlide.2.1.1.js"></script>
+    <!--[if lt IE 9]>
+    <script src="https://cdn.bootcss.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+    <script src="https://cdn.bootcss.com/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+    <script>
+        $(function () {
+            $('.reg .ul li input').focus(function () {
+                $(this).parents('li').addClass('focus');
+            })
+            $('.reg .ul li input').blur(function () {
+                $(this).parents('li').removeClass('focus');
+            })
+        })
+
+    </script>
+
+</head>
+<body>
+
+<div class="topbar-0">
+    <nav class="navbar navbar-default">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-md-8 fln center-block col-xs-12">
+                    <div class="navbar-header">
+                        <a href="" class="navbar-brand">
+                            <img src="images/logo.png" alt="" class="img-responsive"/> <span>欢迎注册</span>
+                        </a>
+                    </div>
+                    
+                </div>
+            </div>
+        </div>
+    </nav>
+</div>
+
+
+<div class="container regbox">
+    <div class="row">
+       <div class="col-md-6 col-xs-12">
+            <div class="left clearfix">
+                <h3>《尚壹修注册协议》</h3>
+                <p>尊敬的阁下，在您注册成为本网站会员之前，请您务必认真阅读和理解《网站用户注册协议》（以下简称：协议）中所有的条款。您须完全同意协议中所有条款，才能注册成为本网站会员，享受其服务。您在网站的注册和操作均将被视为是您对协议所有条款及内容的自愿接受。 <br>
+第一条声明 <br>
+（一）尚壹修网站所有权归北京凌云天丞数码科技有限公司（以下简称：本公司）所有。<br>
+（二）您在网站进行注册时，一旦点击“我接受”按钮，即表示为您已自愿接受协议中所有的条款和内容。 <br>
+（三）协议条款的效力范围仅限于本网站，您在网站的行为均受协议的约束。 <br>
+（四）您使用网站服务的行为，即被视为您已知悉本网站的相关公告并同意。 <br>
+（五）本网站有权在未提前通知您的情况下修改协议的条款，您每次进入网站在使用服务前，都应先查阅一遍协议。<br>
+（六）本网站有权在未提前通知您的情况下修改、暂停网站部分或全部的服务，且不承担由此产生来自您和第三方的任何责任。<br>
+（七）本网站提供免费注册服务，您的注册均是自愿行为，注册成功后，您可以得到网站更加完善的服务。<br>
+第二条用户管理<br>
+（一）您在本网站的所有行为都须符合中国的法律法规，您不得利用本网站提供的服务制作、复制、发布、传播以下信息：<br>
+1、反对宪法基本原则的；<br>
+2、危害国家安全、泄露国家秘密、颠覆国家政权、破坏国家统一的；<br>
+3、损害国家荣誉和利益的；<br>
+4、煽动民族仇恨、民族歧视、破坏民族团结的；
+</p>
+                <a href="" class="pull-right hidden">查看更多</a>
+            </div>
+       </div>
+       <div class="col-md-6 col-xs-12">
+            <div class="reg-form center-block">
+                <ul class="ul clearfix">
+                    <li>
+                        <i>用   户   名</i>
+                        <input type="text" placeholder="您的账户名和登录名">
+                    </li>
+                    <li class="li">
+                        <div class="txt hidden">支持中文、字母、数字、“”_的组合，6-20个字符</div>
+                    </li>
+                    <li>
+                        <i>设置密码</i>
+                        <input type="text" placeholder="建议至少两种字符组合">
+                    </li>
+                    <li class="li">
+                        <div class="txt hidden">支持中文、字母、数字、“”_的组合，6-20个字符</div>
+                    </li>
+                    <li>
+                        <i>确认密码</i>
+                        <input type="text" placeholder="请再次输入密码">
+                    </li>
+                    <li class="li">
+                        <div class="txt hidden">请再次输入密码</div>
+                    </li>
+                    <li>
+                        <i>手机号码</i>
+                        <input type="text" placeholder="建议使用常用手机">
+                    </li>
+                    <li class="li">
+                        <div class="txt hidden">完成验证后，您可以用该手机登陆或找回密码</div>
+                    </li>
+                    <li>
+                        <i>验证码</i>
+                        <input type="text" placeholder="请输入验证码">
+                        <div class="yzm pull-right">
+                            <img src="images/yzm.jpg" alt=""/>
+                        </div>
+                    </li>
+                    <li class="li">
+                        <div class="txt hidden">看不清？点击图片更换验证码</div>
+                    </li>
+                    <li>
+                        <i>手机验证码</i>
+                        <input type="text" placeholder="请输入手机验证码">
+                        <a href="" class="get-yzm pull-right">获取验证码</a>
+                    </li>
+                </ul>
+
+                <div class="checkbox">
+                    <label>
+                        <input type="checkbox"> 阅读并同意 <a href="">《尚壹修注册协议》</a>
+                    </label>
+                </div>
+
+                <a href="" class="btn btn-default submit">立即注册</a>
+            </div>
+       </div>
+    </div>
+</div>
+
+
+
+
+
+
+<footer>
+    <p><a href="">关于我们</a><span class="icon-bar"></span><a href="">联系我们</a><span class="icon-bar"></span><a href="">人才招聘</a><span class="icon-bar"></span><a href="">友情链接</a></p>
+
+    <p>Copyright © 2004-2017  尚壹修版权所有</p>
+</footer>
+
+
+
+</body>
+</html>

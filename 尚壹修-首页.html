@@ -1,0 +1,1853 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>尚壹修-首页</title>
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/public.css"/>
+    <link rel="stylesheet" href="css/css.css"/>
+    <script src="js/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/jquery.SuperSlide.2.1.1.js"></script>
+    <!--[if lt IE 9]>
+    <script src="https://cdn.bootcss.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+    <script src="https://cdn.bootcss.com/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+    <script>
+        $(function () {
+            jQuery('.banner').slide({
+                mainCell:'.bd ul',
+                effect:'fade',
+                autoPlay:true,
+                autoPage:'<li><a></a></li>'
+            })
+
+            jQuery('.slide').slide({
+                mainCell:'.bd ul',
+                vis:4,
+                scroll:1,
+                effect:'left',
+                autoPlay:false,
+                autoPage:true,
+                prevCell:'.prev',
+                nextCell:'.next'
+            })
+
+            $('.phone-section .ul>li:gt(0)').hide();
+
+            var li_0=$('.phone-section .nav-tabs>li');
+            var li_1=$('.phone-section .ul>li');
+            li_0.click(function () {
+                $(this).addClass('active').siblings('li').removeClass('active');
+                li_1.eq(li_0.index(this)).fadeIn().siblings('li').hide();
+            })
+
+            $('.zh .ul>li:gt(0)').hide();
+
+            var li_2=$('.zh .nav-tabs>li');
+            var li_3=$('.zh .ul>li');
+            li_2.click(function () {
+                $(this).addClass('active').siblings('li').removeClass('active');
+                li_3.eq(li_2.index(this)).fadeIn().siblings('li').hide();
+            })
+        })
+
+    </script>
+
+</head>
+<body>
+
+<div class="top">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12 text-right">
+<span>您好，请<a href="" class="ml-0">登录</a></span><a href="" class="a">免费注册</a><a href="">个人中心</a><a href="">帮助中心</a><a href="">网站导航</a>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<nav class="navbar navbar-default">
+    <div class="container">
+        <div class="navbar-header">
+            <a href="#" class="navbar-brand">
+                <img src="images/logo-0.png" alt="" class="img-responsive"/>
+            </a>
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target=".navbar-collapse" aria-expanded="false">
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+        </div>
+
+        <div class="collapse navbar-collapse">
+            <ul class="nav navbar-nav navbar-right">
+                <li class="active">
+                    <a href="">首页</a>
+                </li>
+                <li>
+                    <a href="">手机维修</a>
+                </li>
+                <li>
+                    <a href="">回收置换</a>
+                </li>
+                <li>
+                    <a href="">修哥商城</a>
+                </li>
+                <li>
+                    <a href="">关于我们</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</nav>
+
+<div class="banner por">
+    <div class="bd">
+        <ul>
+            <li class="li"></li>
+        </ul>
+    </div>
+</div>
+
+
+<div class="ts container-fluid">
+    <div class="row">
+        <div class="col-sm-9 fln center-block col-xs-12">
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-md-5ths">
+                        <a href="">
+                            <div class="img">
+                                <img src="images/s0.png" alt="" class="img-responsive center-block"/>
+                            </div>
+                            <p>免费上门</p>
+                        </a>
+                    </div>
+                    <div class="col-md-5ths">
+                        <a href="">
+                            <div class="img">
+                                <img src="images/s1.png" alt="" class="img-responsive center-block"/>
+                            </div>
+                            <p>极速响应</p>
+                        </a>
+                    </div>
+                    <div class="col-md-5ths">
+                        <a href="">
+                            <div class="img">
+                                <img src="images/s2.png" alt="" class="img-responsive center-block"/>
+                            </div>
+                            <p>原厂品质</p>
+                        </a>
+                    </div>
+                    <div class="col-md-5ths">
+                        <a href="">
+                            <div class="img">
+                                <img src="images/s3.png" alt="" class="img-responsive center-block"/>
+                            </div>
+                            <p>180天care</p>
+                        </a>
+                    </div>
+                    <div class="col-md-5ths">
+                        <a href="">
+                            <div class="img">
+                                <img src="images/s4.png" alt="" class="img-responsive center-block"/>
+                            </div>
+                            <p>全程录像</p>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+</div>
+
+
+<!--手机维修-->
+<div class="phone-section">
+    <h2>手机维修</h2>
+    <div class="pub-line center-block"></div>
+    <h4>专业维修团队，极速响应，解您燃眉之急</h4>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12 col-xs-12">
+                <div class="title">
+                    <span class="pull-left">关于维修</span>
+                    <ul class="nav nav-tabs navbar-left hidden-xs">
+                        <li class="active">
+                            <a href="javascript:"  data-toggle="tab">
+                                <img src="images/t-0.png" alt="" class="img-responsive center-block"/>
+                                <i class="caret0"></i>
+                                <div class="phone-name">苹果</div>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="javascript:"  data-toggle="tab">
+                                <img src="images/t-1.png" alt="" class="img-responsive center-block"/>
+                                <i class="caret0"></i>
+                                <div class="phone-name">小米</div>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="javascript:"  data-toggle="tab">
+                                <img src="images/t-2.png" alt="" class="img-responsive center-block"/>
+                                <i class="caret0"></i>
+                                <div class="phone-name">华为</div>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="javascript:"  data-toggle="tab">
+                                <img src="images/t-3.png" alt="" class="img-responsive center-block"/>
+                                <i class="caret0"></i>
+                                <div class="phone-name">vivo</div>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="javascript:"  data-toggle="tab">
+                                <img src="images/t-4.png" alt="" class="img-responsive center-block"/>
+                                <i class="caret0"></i>
+                                <div class="phone-name">oppo</div>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="javascript:"  data-toggle="tab">
+                                <img src="images/t-5.png" alt="" class="img-responsive center-block"/>
+                                <i class="caret0"></i>
+                                <div class="phone-name">三星</div>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="javascript:"  data-toggle="tab">
+                                <img src="images/t-6.png" alt="" class="img-responsive center-block"/>
+                                <i class="caret0"></i>
+                                <div class="phone-name">魅族</div>
+                            </a>
+                        </li>
+                    </ul>
+                    <a href="" class="more">MORE</a>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-12 col-xs-12">
+                <ul class="ul">
+                    <li>
+                        <div class="slide por">
+                            <div class="bd">
+                                <ul>
+                                    <li>
+                                        <a href="" class="center-block">
+                                            <div class="img">
+                                                <img src="images/phone-0.jpg" alt="" class="img-responsive"/>
+                                            </div>
+                                            <div class="caption">
+                                                <p>iphone 7puls</p>
+                                            </div>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="" class="center-block">
+                                            <div class="img">
+                                                <img src="images/phone-0.jpg" alt="" class="img-responsive"/>
+                                            </div>
+                                            <div class="caption">
+                                                <p>iphone 7puls</p>
+                                            </div>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="" class="center-block">
+                                            <div class="img">
+                                                <img src="images/phone-0.jpg" alt="" class="img-responsive"/>
+                                            </div>
+                                            <div class="caption">
+                                                <p>iphone 7puls</p>
+                                            </div>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="" class="center-block">
+                                            <div class="img">
+                                                <img src="images/phone-0.jpg" alt="" class="img-responsive"/>
+                                            </div>
+                                            <div class="caption">
+                                                <p>iphone 7puls</p>
+                                            </div>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="" class="center-block">
+                                            <div class="img">
+                                                <img src="images/phone-0.jpg" alt="" class="img-responsive"/>
+                                            </div>
+                                            <div class="caption">
+                                                <p>iphone 7puls</p>
+                                            </div>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="" class="center-block">
+                                            <div class="img">
+                                                <img src="images/phone-0.jpg" alt="" class="img-responsive"/>
+                                            </div>
+                                            <div class="caption">
+                                                <p>iphone 7puls</p>
+                                            </div>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="" class="center-block">
+                                            <div class="img">
+                                                <img src="images/phone-0.jpg" alt="" class="img-responsive"/>
+                                            </div>
+                                            <div class="caption">
+                                                <p>iphone 7puls</p>
+                                            </div>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="" class="center-block">
+                                            <div class="img">
+                                                <img src="images/phone-0.jpg" alt="" class="img-responsive"/>
+                                            </div>
+                                            <div class="caption">
+                                                <p>iphone 7puls</p>
+                                            </div>
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+                            <a href="javascript:" class="prev">
+                                <img src="images/prev.png" alt="" class="img-responsive"/>
+                            </a>
+                            <a href="javascript:" class="next">
+                                <img src="images/next.png" alt="" class="img-responsive"/>
+                            </a>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="slide por">
+                            <div class="bd">
+                                <ul>
+                                    <li>
+                                        <a href="" class="center-block">
+                                            <div class="img">
+                                                <img src="images/phone-0.jpg" alt="" class="img-responsive"/>
+                                            </div>
+                                            <div class="caption">
+                                                <p>小米4</p>
+                                            </div>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="" class="center-block">
+                                            <div class="img">
+                                                <img src="images/phone-0.jpg" alt="" class="img-responsive"/>
+                                            </div>
+                                            <div class="caption">
+                                                <p>小米5</p>
+                                            </div>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="" class="center-block">
+                                            <div class="img">
+                                                <img src="images/phone-0.jpg" alt="" class="img-responsive"/>
+                                            </div>
+                                            <div class="caption">
+                                                <p>小米6</p>
+                                            </div>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="" class="center-block">
+                                            <div class="img">
+                                                <img src="images/phone-0.jpg" alt="" class="img-responsive"/>
+                                            </div>
+                                            <div class="caption">
+                                                <p>小米7</p>
+                                            </div>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="" class="center-block">
+                                            <div class="img">
+                                                <img src="images/phone-0.jpg" alt="" class="img-responsive"/>
+                                            </div>
+                                            <div class="caption">
+                                                <p>iphone 7puls</p>
+                                            </div>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="" class="center-block">
+                                            <div class="img">
+                                                <img src="images/phone-0.jpg" alt="" class="img-responsive"/>
+                                            </div>
+                                            <div class="caption">
+                                                <p>iphone 7puls</p>
+                                            </div>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="" class="center-block">
+                                            <div class="img">
+                                                <img src="images/phone-0.jpg" alt="" class="img-responsive"/>
+                                            </div>
+                                            <div class="caption">
+                                                <p>iphone 7puls</p>
+                                            </div>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="" class="center-block">
+                                            <div class="img">
+                                                <img src="images/phone-0.jpg" alt="" class="img-responsive"/>
+                                            </div>
+                                            <div class="caption">
+                                                <p>iphone 7puls</p>
+                                            </div>
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+                            <a href="javascript:" class="prev">
+                                <img src="images/prev.png" alt="" class="img-responsive"/>
+                            </a>
+                            <a href="javascript:" class="next">
+                                <img src="images/next.png" alt="" class="img-responsive"/>
+                            </a>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="slide por">
+                            <div class="bd">
+                                <ul>
+                                    <li>
+                                        <a href="" class="center-block">
+                                            <div class="img">
+                                                <img src="images/phone-0.jpg" alt="" class="img-responsive"/>
+                                            </div>
+                                            <div class="caption">
+                                                <p>iphone 7puls</p>
+                                            </div>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="" class="center-block">
+                                            <div class="img">
+                                                <img src="images/phone-0.jpg" alt="" class="img-responsive"/>
+                                            </div>
+                                            <div class="caption">
+                                                <p>iphone 7puls</p>
+                                            </div>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="" class="center-block">
+                                            <div class="img">
+                                                <img src="images/phone-0.jpg" alt="" class="img-responsive"/>
+                                            </div>
+                                            <div class="caption">
+                                                <p>iphone 7puls</p>
+                                            </div>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="" class="center-block">
+                                            <div class="img">
+                                                <img src="images/phone-0.jpg" alt="" class="img-responsive"/>
+                                            </div>
+                                            <div class="caption">
+                                                <p>iphone 7puls</p>
+                                            </div>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="" class="center-block">
+                                            <div class="img">
+                                                <img src="images/phone-0.jpg" alt="" class="img-responsive"/>
+                                            </div>
+                                            <div class="caption">
+                                                <p>iphone 7puls</p>
+                                            </div>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="" class="center-block">
+                                            <div class="img">
+                                                <img src="images/phone-0.jpg" alt="" class="img-responsive"/>
+                                            </div>
+                                            <div class="caption">
+                                                <p>iphone 7puls</p>
+                                            </div>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="" class="center-block">
+                                            <div class="img">
+                                                <img src="images/phone-0.jpg" alt="" class="img-responsive"/>
+                                            </div>
+                                            <div class="caption">
+                                                <p>iphone 7puls</p>
+                                            </div>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="" class="center-block">
+                                            <div class="img">
+                                                <img src="images/phone-0.jpg" alt="" class="img-responsive"/>
+                                            </div>
+                                            <div class="caption">
+                                                <p>iphone 7puls</p>
+                                            </div>
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+                            <a href="javascript:" class="prev">
+                                <img src="images/prev.png" alt="" class="img-responsive"/>
+                            </a>
+                            <a href="javascript:" class="next">
+                                <img src="images/next.png" alt="" class="img-responsive"/>
+                            </a>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="slide por">
+                            <div class="bd">
+                                <ul>
+                                    <li>
+                                        <a href="" class="center-block">
+                                            <div class="img">
+                                                <img src="images/phone-0.jpg" alt="" class="img-responsive"/>
+                                            </div>
+                                            <div class="caption">
+                                                <p>小米4</p>
+                                            </div>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="" class="center-block">
+                                            <div class="img">
+                                                <img src="images/phone-0.jpg" alt="" class="img-responsive"/>
+                                            </div>
+                                            <div class="caption">
+                                                <p>小米5</p>
+                                            </div>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="" class="center-block">
+                                            <div class="img">
+                                                <img src="images/phone-0.jpg" alt="" class="img-responsive"/>
+                                            </div>
+                                            <div class="caption">
+                                                <p>小米6</p>
+                                            </div>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="" class="center-block">
+                                            <div class="img">
+                                                <img src="images/phone-0.jpg" alt="" class="img-responsive"/>
+                                            </div>
+                                            <div class="caption">
+                                                <p>小米7</p>
+                                            </div>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="" class="center-block">
+                                            <div class="img">
+                                                <img src="images/phone-0.jpg" alt="" class="img-responsive"/>
+                                            </div>
+                                            <div class="caption">
+                                                <p>iphone 7puls</p>
+                                            </div>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="" class="center-block">
+                                            <div class="img">
+                                                <img src="images/phone-0.jpg" alt="" class="img-responsive"/>
+                                            </div>
+                                            <div class="caption">
+                                                <p>iphone 7puls</p>
+                                            </div>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="" class="center-block">
+                                            <div class="img">
+                                                <img src="images/phone-0.jpg" alt="" class="img-responsive"/>
+                                            </div>
+                                            <div class="caption">
+                                                <p>iphone 7puls</p>
+                                            </div>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="" class="center-block">
+                                            <div class="img">
+                                                <img src="images/phone-0.jpg" alt="" class="img-responsive"/>
+                                            </div>
+                                            <div class="caption">
+                                                <p>iphone 7puls</p>
+                                            </div>
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+                            <a href="javascript:" class="prev">
+                                <img src="images/prev.png" alt="" class="img-responsive"/>
+                            </a>
+                            <a href="javascript:" class="next">
+                                <img src="images/next.png" alt="" class="img-responsive"/>
+                            </a>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="slide por">
+                            <div class="bd">
+                                <ul>
+                                    <li>
+                                        <a href="" class="center-block">
+                                            <div class="img">
+                                                <img src="images/phone-0.jpg" alt="" class="img-responsive"/>
+                                            </div>
+                                            <div class="caption">
+                                                <p>iphone 7puls</p>
+                                            </div>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="" class="center-block">
+                                            <div class="img">
+                                                <img src="images/phone-0.jpg" alt="" class="img-responsive"/>
+                                            </div>
+                                            <div class="caption">
+                                                <p>iphone 7puls</p>
+                                            </div>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="" class="center-block">
+                                            <div class="img">
+                                                <img src="images/phone-0.jpg" alt="" class="img-responsive"/>
+                                            </div>
+                                            <div class="caption">
+                                                <p>iphone 7puls</p>
+                                            </div>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="" class="center-block">
+                                            <div class="img">
+                                                <img src="images/phone-0.jpg" alt="" class="img-responsive"/>
+                                            </div>
+                                            <div class="caption">
+                                                <p>iphone 7puls</p>
+                                            </div>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="" class="center-block">
+                                            <div class="img">
+                                                <img src="images/phone-0.jpg" alt="" class="img-responsive"/>
+                                            </div>
+                                            <div class="caption">
+                                                <p>iphone 7puls</p>
+                                            </div>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="" class="center-block">
+                                            <div class="img">
+                                                <img src="images/phone-0.jpg" alt="" class="img-responsive"/>
+                                            </div>
+                                            <div class="caption">
+                                                <p>iphone 7puls</p>
+                                            </div>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="" class="center-block">
+                                            <div class="img">
+                                                <img src="images/phone-0.jpg" alt="" class="img-responsive"/>
+                                            </div>
+                                            <div class="caption">
+                                                <p>iphone 7puls</p>
+                                            </div>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="" class="center-block">
+                                            <div class="img">
+                                                <img src="images/phone-0.jpg" alt="" class="img-responsive"/>
+                                            </div>
+                                            <div class="caption">
+                                                <p>iphone 7puls</p>
+                                            </div>
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+                            <a href="javascript:" class="prev">
+                                <img src="images/prev.png" alt="" class="img-responsive"/>
+                            </a>
+                            <a href="javascript:" class="next">
+                                <img src="images/next.png" alt="" class="img-responsive"/>
+                            </a>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="slide por">
+                            <div class="bd">
+                                <ul>
+                                    <li>
+                                        <a href="" class="center-block">
+                                            <div class="img">
+                                                <img src="images/phone-0.jpg" alt="" class="img-responsive"/>
+                                            </div>
+                                            <div class="caption">
+                                                <p>小米4</p>
+                                            </div>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="" class="center-block">
+                                            <div class="img">
+                                                <img src="images/phone-0.jpg" alt="" class="img-responsive"/>
+                                            </div>
+                                            <div class="caption">
+                                                <p>小米5</p>
+                                            </div>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="" class="center-block">
+                                            <div class="img">
+                                                <img src="images/phone-0.jpg" alt="" class="img-responsive"/>
+                                            </div>
+                                            <div class="caption">
+                                                <p>小米6</p>
+                                            </div>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="" class="center-block">
+                                            <div class="img">
+                                                <img src="images/phone-0.jpg" alt="" class="img-responsive"/>
+                                            </div>
+                                            <div class="caption">
+                                                <p>小米7</p>
+                                            </div>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="" class="center-block">
+                                            <div class="img">
+                                                <img src="images/phone-0.jpg" alt="" class="img-responsive"/>
+                                            </div>
+                                            <div class="caption">
+                                                <p>iphone 7puls</p>
+                                            </div>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="" class="center-block">
+                                            <div class="img">
+                                                <img src="images/phone-0.jpg" alt="" class="img-responsive"/>
+                                            </div>
+                                            <div class="caption">
+                                                <p>iphone 7puls</p>
+                                            </div>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="" class="center-block">
+                                            <div class="img">
+                                                <img src="images/phone-0.jpg" alt="" class="img-responsive"/>
+                                            </div>
+                                            <div class="caption">
+                                                <p>iphone 7puls</p>
+                                            </div>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="" class="center-block">
+                                            <div class="img">
+                                                <img src="images/phone-0.jpg" alt="" class="img-responsive"/>
+                                            </div>
+                                            <div class="caption">
+                                                <p>iphone 7puls</p>
+                                            </div>
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+                            <a href="javascript:" class="prev">
+                                <img src="images/prev.png" alt="" class="img-responsive"/>
+                            </a>
+                            <a href="javascript:" class="next">
+                                <img src="images/next.png" alt="" class="img-responsive"/>
+                            </a>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="slide por">
+                            <div class="bd">
+                                <ul>
+                                    <li>
+                                        <a href="" class="center-block">
+                                            <div class="img">
+                                                <img src="images/phone-0.jpg" alt="" class="img-responsive"/>
+                                            </div>
+                                            <div class="caption">
+                                                <p>iphone 7puls</p>
+                                            </div>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="" class="center-block">
+                                            <div class="img">
+                                                <img src="images/phone-0.jpg" alt="" class="img-responsive"/>
+                                            </div>
+                                            <div class="caption">
+                                                <p>iphone 7puls</p>
+                                            </div>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="" class="center-block">
+                                            <div class="img">
+                                                <img src="images/phone-0.jpg" alt="" class="img-responsive"/>
+                                            </div>
+                                            <div class="caption">
+                                                <p>iphone 7puls</p>
+                                            </div>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="" class="center-block">
+                                            <div class="img">
+                                                <img src="images/phone-0.jpg" alt="" class="img-responsive"/>
+                                            </div>
+                                            <div class="caption">
+                                                <p>iphone 7puls</p>
+                                            </div>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="" class="center-block">
+                                            <div class="img">
+                                                <img src="images/phone-0.jpg" alt="" class="img-responsive"/>
+                                            </div>
+                                            <div class="caption">
+                                                <p>iphone 7puls</p>
+                                            </div>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="" class="center-block">
+                                            <div class="img">
+                                                <img src="images/phone-0.jpg" alt="" class="img-responsive"/>
+                                            </div>
+                                            <div class="caption">
+                                                <p>iphone 7puls</p>
+                                            </div>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="" class="center-block">
+                                            <div class="img">
+                                                <img src="images/phone-0.jpg" alt="" class="img-responsive"/>
+                                            </div>
+                                            <div class="caption">
+                                                <p>iphone 7puls</p>
+                                            </div>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="" class="center-block">
+                                            <div class="img">
+                                                <img src="images/phone-0.jpg" alt="" class="img-responsive"/>
+                                            </div>
+                                            <div class="caption">
+                                                <p>iphone 7puls</p>
+                                            </div>
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+                            <a href="javascript:" class="prev">
+                                <img src="images/prev.png" alt="" class="img-responsive"/>
+                            </a>
+                            <a href="javascript:" class="next">
+                                <img src="images/next.png" alt="" class="img-responsive"/>
+                            </a>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+</div>
+
+
+<!--闲置置换-->
+<div class="zh">
+    <h2>闲置置换</h2>
+    <div class="pub-line center-block"></div>
+    <h4>专业维修团队，极速响应，解您燃眉之急</h4>
+
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12 col-xs-12">
+                <div class="title">
+                    <span class="pull-left">关于维修</span>
+                    <ul class="nav nav-tabs navbar-left hidden-xs">
+                        <li class="active">
+                            <a href="javascript:"  data-toggle="tab">
+                                <img src="images/t-0.png" alt="" class="img-responsive center-block"/>
+                                <i class="caret0"></i>
+                                <div class="phone-name">苹果</div>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="javascript:"  data-toggle="tab">
+                                <img src="images/t-1.png" alt="" class="img-responsive center-block"/>
+                                <i class="caret0"></i>
+                                <div class="phone-name">小米</div>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="javascript:"  data-toggle="tab">
+                                <img src="images/t-2.png" alt="" class="img-responsive center-block"/>
+                                <i class="caret0"></i>
+                                <div class="phone-name">华为</div>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="javascript:"  data-toggle="tab">
+                                <img src="images/t-3.png" alt="" class="img-responsive center-block"/>
+                                <i class="caret0"></i>
+                                <div class="phone-name">vivo</div>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="javascript:"  data-toggle="tab">
+                                <img src="images/t-4.png" alt="" class="img-responsive center-block"/>
+                                <i class="caret0"></i>
+                                <div class="phone-name">oppo</div>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="javascript:"  data-toggle="tab">
+                                <img src="images/t-5.png" alt="" class="img-responsive center-block"/>
+                                <i class="caret0"></i>
+                                <div class="phone-name">三星</div>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="javascript:"  data-toggle="tab">
+                                <img src="images/t-6.png" alt="" class="img-responsive center-block"/>
+                                <i class="caret0"></i>
+                                <div class="phone-name">魅族</div>
+                            </a>
+                        </li>
+                    </ul>
+                    <a href="" class="more">MORE</a>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-12 col-xs-12">
+                <ul class="ul">
+                    <li>
+                        <div class="slide por">
+                            <div class="bd">
+                                <ul>
+                                    <li>
+                                        <a href="" class="center-block">
+                                            <div class="img">
+                                                <img src="images/phone-0.jpg" alt="" class="img-responsive"/>
+                                            </div>
+                                            <div class="caption">
+                                                <p>iphone 7puls</p>
+                                            </div>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="" class="center-block">
+                                            <div class="img">
+                                                <img src="images/phone-0.jpg" alt="" class="img-responsive"/>
+                                            </div>
+                                            <div class="caption">
+                                                <p>iphone 7puls</p>
+                                            </div>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="" class="center-block">
+                                            <div class="img">
+                                                <img src="images/phone-0.jpg" alt="" class="img-responsive"/>
+                                            </div>
+                                            <div class="caption">
+                                                <p>iphone 7puls</p>
+                                            </div>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="" class="center-block">
+                                            <div class="img">
+                                                <img src="images/phone-0.jpg" alt="" class="img-responsive"/>
+                                            </div>
+                                            <div class="caption">
+                                                <p>iphone 7puls</p>
+                                            </div>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="" class="center-block">
+                                            <div class="img">
+                                                <img src="images/phone-0.jpg" alt="" class="img-responsive"/>
+                                            </div>
+                                            <div class="caption">
+                                                <p>iphone 7puls</p>
+                                            </div>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="" class="center-block">
+                                            <div class="img">
+                                                <img src="images/phone-0.jpg" alt="" class="img-responsive"/>
+                                            </div>
+                                            <div class="caption">
+                                                <p>iphone 7puls</p>
+                                            </div>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="" class="center-block">
+                                            <div class="img">
+                                                <img src="images/phone-0.jpg" alt="" class="img-responsive"/>
+                                            </div>
+                                            <div class="caption">
+                                                <p>iphone 7puls</p>
+                                            </div>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="" class="center-block">
+                                            <div class="img">
+                                                <img src="images/phone-0.jpg" alt="" class="img-responsive"/>
+                                            </div>
+                                            <div class="caption">
+                                                <p>iphone 7puls</p>
+                                            </div>
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+                            <a href="javascript:" class="prev">
+                                <img src="images/prev.png" alt="" class="img-responsive"/>
+                            </a>
+                            <a href="javascript:" class="next">
+                                <img src="images/next.png" alt="" class="img-responsive"/>
+                            </a>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="slide por">
+                            <div class="bd">
+                                <ul>
+                                    <li>
+                                        <a href="" class="center-block">
+                                            <div class="img">
+                                                <img src="images/phone-0.jpg" alt="" class="img-responsive"/>
+                                            </div>
+                                            <div class="caption">
+                                                <p>小米4</p>
+                                            </div>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="" class="center-block">
+                                            <div class="img">
+                                                <img src="images/phone-0.jpg" alt="" class="img-responsive"/>
+                                            </div>
+                                            <div class="caption">
+                                                <p>小米5</p>
+                                            </div>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="" class="center-block">
+                                            <div class="img">
+                                                <img src="images/phone-0.jpg" alt="" class="img-responsive"/>
+                                            </div>
+                                            <div class="caption">
+                                                <p>小米6</p>
+                                            </div>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="" class="center-block">
+                                            <div class="img">
+                                                <img src="images/phone-0.jpg" alt="" class="img-responsive"/>
+                                            </div>
+                                            <div class="caption">
+                                                <p>小米7</p>
+                                            </div>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="" class="center-block">
+                                            <div class="img">
+                                                <img src="images/phone-0.jpg" alt="" class="img-responsive"/>
+                                            </div>
+                                            <div class="caption">
+                                                <p>iphone 7puls</p>
+                                            </div>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="" class="center-block">
+                                            <div class="img">
+                                                <img src="images/phone-0.jpg" alt="" class="img-responsive"/>
+                                            </div>
+                                            <div class="caption">
+                                                <p>iphone 7puls</p>
+                                            </div>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="" class="center-block">
+                                            <div class="img">
+                                                <img src="images/phone-0.jpg" alt="" class="img-responsive"/>
+                                            </div>
+                                            <div class="caption">
+                                                <p>iphone 7puls</p>
+                                            </div>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="" class="center-block">
+                                            <div class="img">
+                                                <img src="images/phone-0.jpg" alt="" class="img-responsive"/>
+                                            </div>
+                                            <div class="caption">
+                                                <p>iphone 7puls</p>
+                                            </div>
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+                            <a href="javascript:" class="prev">
+                                <img src="images/prev.png" alt="" class="img-responsive"/>
+                            </a>
+                            <a href="javascript:" class="next">
+                                <img src="images/next.png" alt="" class="img-responsive"/>
+                            </a>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="slide por">
+                            <div class="bd">
+                                <ul>
+                                    <li>
+                                        <a href="" class="center-block">
+                                            <div class="img">
+                                                <img src="images/phone-0.jpg" alt="" class="img-responsive"/>
+                                            </div>
+                                            <div class="caption">
+                                                <p>iphone 7puls</p>
+                                            </div>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="" class="center-block">
+                                            <div class="img">
+                                                <img src="images/phone-0.jpg" alt="" class="img-responsive"/>
+                                            </div>
+                                            <div class="caption">
+                                                <p>iphone 7puls</p>
+                                            </div>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="" class="center-block">
+                                            <div class="img">
+                                                <img src="images/phone-0.jpg" alt="" class="img-responsive"/>
+                                            </div>
+                                            <div class="caption">
+                                                <p>iphone 7puls</p>
+                                            </div>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="" class="center-block">
+                                            <div class="img">
+                                                <img src="images/phone-0.jpg" alt="" class="img-responsive"/>
+                                            </div>
+                                            <div class="caption">
+                                                <p>iphone 7puls</p>
+                                            </div>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="" class="center-block">
+                                            <div class="img">
+                                                <img src="images/phone-0.jpg" alt="" class="img-responsive"/>
+                                            </div>
+                                            <div class="caption">
+                                                <p>iphone 7puls</p>
+                                            </div>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="" class="center-block">
+                                            <div class="img">
+                                                <img src="images/phone-0.jpg" alt="" class="img-responsive"/>
+                                            </div>
+                                            <div class="caption">
+                                                <p>iphone 7puls</p>
+                                            </div>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="" class="center-block">
+                                            <div class="img">
+                                                <img src="images/phone-0.jpg" alt="" class="img-responsive"/>
+                                            </div>
+                                            <div class="caption">
+                                                <p>iphone 7puls</p>
+                                            </div>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="" class="center-block">
+                                            <div class="img">
+                                                <img src="images/phone-0.jpg" alt="" class="img-responsive"/>
+                                            </div>
+                                            <div class="caption">
+                                                <p>iphone 7puls</p>
+                                            </div>
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+                            <a href="javascript:" class="prev">
+                                <img src="images/prev.png" alt="" class="img-responsive"/>
+                            </a>
+                            <a href="javascript:" class="next">
+                                <img src="images/next.png" alt="" class="img-responsive"/>
+                            </a>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="slide por">
+                            <div class="bd">
+                                <ul>
+                                    <li>
+                                        <a href="" class="center-block">
+                                            <div class="img">
+                                                <img src="images/phone-0.jpg" alt="" class="img-responsive"/>
+                                            </div>
+                                            <div class="caption">
+                                                <p>小米4</p>
+                                            </div>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="" class="center-block">
+                                            <div class="img">
+                                                <img src="images/phone-0.jpg" alt="" class="img-responsive"/>
+                                            </div>
+                                            <div class="caption">
+                                                <p>小米5</p>
+                                            </div>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="" class="center-block">
+                                            <div class="img">
+                                                <img src="images/phone-0.jpg" alt="" class="img-responsive"/>
+                                            </div>
+                                            <div class="caption">
+                                                <p>小米6</p>
+                                            </div>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="" class="center-block">
+                                            <div class="img">
+                                                <img src="images/phone-0.jpg" alt="" class="img-responsive"/>
+                                            </div>
+                                            <div class="caption">
+                                                <p>小米7</p>
+                                            </div>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="" class="center-block">
+                                            <div class="img">
+                                                <img src="images/phone-0.jpg" alt="" class="img-responsive"/>
+                                            </div>
+                                            <div class="caption">
+                                                <p>iphone 7puls</p>
+                                            </div>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="" class="center-block">
+                                            <div class="img">
+                                                <img src="images/phone-0.jpg" alt="" class="img-responsive"/>
+                                            </div>
+                                            <div class="caption">
+                                                <p>iphone 7puls</p>
+                                            </div>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="" class="center-block">
+                                            <div class="img">
+                                                <img src="images/phone-0.jpg" alt="" class="img-responsive"/>
+                                            </div>
+                                            <div class="caption">
+                                                <p>iphone 7puls</p>
+                                            </div>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="" class="center-block">
+                                            <div class="img">
+                                                <img src="images/phone-0.jpg" alt="" class="img-responsive"/>
+                                            </div>
+                                            <div class="caption">
+                                                <p>iphone 7puls</p>
+                                            </div>
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+                            <a href="javascript:" class="prev">
+                                <img src="images/prev.png" alt="" class="img-responsive"/>
+                            </a>
+                            <a href="javascript:" class="next">
+                                <img src="images/next.png" alt="" class="img-responsive"/>
+                            </a>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="slide por">
+                            <div class="bd">
+                                <ul>
+                                    <li>
+                                        <a href="" class="center-block">
+                                            <div class="img">
+                                                <img src="images/phone-0.jpg" alt="" class="img-responsive"/>
+                                            </div>
+                                            <div class="caption">
+                                                <p>iphone 7puls</p>
+                                            </div>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="" class="center-block">
+                                            <div class="img">
+                                                <img src="images/phone-0.jpg" alt="" class="img-responsive"/>
+                                            </div>
+                                            <div class="caption">
+                                                <p>iphone 7puls</p>
+                                            </div>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="" class="center-block">
+                                            <div class="img">
+                                                <img src="images/phone-0.jpg" alt="" class="img-responsive"/>
+                                            </div>
+                                            <div class="caption">
+                                                <p>iphone 7puls</p>
+                                            </div>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="" class="center-block">
+                                            <div class="img">
+                                                <img src="images/phone-0.jpg" alt="" class="img-responsive"/>
+                                            </div>
+                                            <div class="caption">
+                                                <p>iphone 7puls</p>
+                                            </div>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="" class="center-block">
+                                            <div class="img">
+                                                <img src="images/phone-0.jpg" alt="" class="img-responsive"/>
+                                            </div>
+                                            <div class="caption">
+                                                <p>iphone 7puls</p>
+                                            </div>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="" class="center-block">
+                                            <div class="img">
+                                                <img src="images/phone-0.jpg" alt="" class="img-responsive"/>
+                                            </div>
+                                            <div class="caption">
+                                                <p>iphone 7puls</p>
+                                            </div>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="" class="center-block">
+                                            <div class="img">
+                                                <img src="images/phone-0.jpg" alt="" class="img-responsive"/>
+                                            </div>
+                                            <div class="caption">
+                                                <p>iphone 7puls</p>
+                                            </div>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="" class="center-block">
+                                            <div class="img">
+                                                <img src="images/phone-0.jpg" alt="" class="img-responsive"/>
+                                            </div>
+                                            <div class="caption">
+                                                <p>iphone 7puls</p>
+                                            </div>
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+                            <a href="javascript:" class="prev">
+                                <img src="images/prev.png" alt="" class="img-responsive"/>
+                            </a>
+                            <a href="javascript:" class="next">
+                                <img src="images/next.png" alt="" class="img-responsive"/>
+                            </a>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="slide por">
+                            <div class="bd">
+                                <ul>
+                                    <li>
+                                        <a href="" class="center-block">
+                                            <div class="img">
+                                                <img src="images/phone-0.jpg" alt="" class="img-responsive"/>
+                                            </div>
+                                            <div class="caption">
+                                                <p>小米4</p>
+                                            </div>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="" class="center-block">
+                                            <div class="img">
+                                                <img src="images/phone-0.jpg" alt="" class="img-responsive"/>
+                                            </div>
+                                            <div class="caption">
+                                                <p>小米5</p>
+                                            </div>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="" class="center-block">
+                                            <div class="img">
+                                                <img src="images/phone-0.jpg" alt="" class="img-responsive"/>
+                                            </div>
+                                            <div class="caption">
+                                                <p>小米6</p>
+                                            </div>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="" class="center-block">
+                                            <div class="img">
+                                                <img src="images/phone-0.jpg" alt="" class="img-responsive"/>
+                                            </div>
+                                            <div class="caption">
+                                                <p>小米7</p>
+                                            </div>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="" class="center-block">
+                                            <div class="img">
+                                                <img src="images/phone-0.jpg" alt="" class="img-responsive"/>
+                                            </div>
+                                            <div class="caption">
+                                                <p>iphone 7puls</p>
+                                            </div>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="" class="center-block">
+                                            <div class="img">
+                                                <img src="images/phone-0.jpg" alt="" class="img-responsive"/>
+                                            </div>
+                                            <div class="caption">
+                                                <p>iphone 7puls</p>
+                                            </div>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="" class="center-block">
+                                            <div class="img">
+                                                <img src="images/phone-0.jpg" alt="" class="img-responsive"/>
+                                            </div>
+                                            <div class="caption">
+                                                <p>iphone 7puls</p>
+                                            </div>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="" class="center-block">
+                                            <div class="img">
+                                                <img src="images/phone-0.jpg" alt="" class="img-responsive"/>
+                                            </div>
+                                            <div class="caption">
+                                                <p>iphone 7puls</p>
+                                            </div>
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+                            <a href="javascript:" class="prev">
+                                <img src="images/prev.png" alt="" class="img-responsive"/>
+                            </a>
+                            <a href="javascript:" class="next">
+                                <img src="images/next.png" alt="" class="img-responsive"/>
+                            </a>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="slide por">
+                            <div class="bd">
+                                <ul>
+                                    <li>
+                                        <a href="" class="center-block">
+                                            <div class="img">
+                                                <img src="images/phone-0.jpg" alt="" class="img-responsive"/>
+                                            </div>
+                                            <div class="caption">
+                                                <p>iphone 7puls</p>
+                                            </div>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="" class="center-block">
+                                            <div class="img">
+                                                <img src="images/phone-0.jpg" alt="" class="img-responsive"/>
+                                            </div>
+                                            <div class="caption">
+                                                <p>iphone 7puls</p>
+                                            </div>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="" class="center-block">
+                                            <div class="img">
+                                                <img src="images/phone-0.jpg" alt="" class="img-responsive"/>
+                                            </div>
+                                            <div class="caption">
+                                                <p>iphone 7puls</p>
+                                            </div>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="" class="center-block">
+                                            <div class="img">
+                                                <img src="images/phone-0.jpg" alt="" class="img-responsive"/>
+                                            </div>
+                                            <div class="caption">
+                                                <p>iphone 7puls</p>
+                                            </div>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="" class="center-block">
+                                            <div class="img">
+                                                <img src="images/phone-0.jpg" alt="" class="img-responsive"/>
+                                            </div>
+                                            <div class="caption">
+                                                <p>iphone 7puls</p>
+                                            </div>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="" class="center-block">
+                                            <div class="img">
+                                                <img src="images/phone-0.jpg" alt="" class="img-responsive"/>
+                                            </div>
+                                            <div class="caption">
+                                                <p>iphone 7puls</p>
+                                            </div>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="" class="center-block">
+                                            <div class="img">
+                                                <img src="images/phone-0.jpg" alt="" class="img-responsive"/>
+                                            </div>
+                                            <div class="caption">
+                                                <p>iphone 7puls</p>
+                                            </div>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="" class="center-block">
+                                            <div class="img">
+                                                <img src="images/phone-0.jpg" alt="" class="img-responsive"/>
+                                            </div>
+                                            <div class="caption">
+                                                <p>iphone 7puls</p>
+                                            </div>
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+                            <a href="javascript:" class="prev">
+                                <img src="images/prev.png" alt="" class="img-responsive"/>
+                            </a>
+                            <a href="javascript:" class="next">
+                                <img src="images/next.png" alt="" class="img-responsive"/>
+                            </a>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<!--服务流程-->
+<div class="service">
+    <h2>服务流程</h2>
+    <div class="pub-line center-block"></div>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-3 col-xs-6">
+                <a href="" class="thumbnail">
+                    <img src="images/list-0.jpg" alt="" class="img-responsive"/>
+                    <div class="caption">
+                        <p>急速下单</p>
+                    </div>
+                </a>
+            </div>
+            <div class="col-md-3 col-xs-6">
+                <a href="" class="thumbnail">
+                    <img src="images/list-1.jpg" alt="" class="img-responsive"/>
+                    <div class="caption">
+                        <p>上门时间任选</p>
+                    </div>
+                </a>
+            </div>
+            <div class="col-md-3 col-xs-6">
+                <a href="" class="thumbnail">
+                    <img src="images/list-2.jpg" alt="" class="img-responsive"/>
+                    <div class="caption">
+                        <p>全程录像</p>
+                    </div>
+                </a>
+            </div>
+            <div class="col-md-3 col-xs-6">
+                <a href="" class="thumbnail">
+                    <img src="images/list-3.jpg" alt="" class="img-responsive"/>
+                    <div class="caption">
+                        <p>不满意即退款</p>
+                    </div>
+                </a>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<!--业务解析-->
+<div class="yw">
+    <h2>业务解析</h2>
+    <div class="pub-line center-block"></div>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12 col-xs-12">
+                <div class="title">
+                    <span class="pull-left">关于维修</span>
+                    <a href="" class="more">MORE</a>
+                </div>
+                <p class="active">Q：手机坏了如何维修？</p>
+                <p class="active">A：您可在首页“手机维修”点击需要维修的机型和故障，提交订单即可。    </p>
+                <p>Q：哪些城市可以上门维修？</p>
+                <p>A：目前仅支持北京上门维修。（五环外需加收XX元上门服务费）</p>
+                <p>Q：如无法上们维修如何处理？</p>
+                <p>A：您可直接将故障手机寄送至尚壹修维修中心，我们负责单向邮寄费用。    </p>
+            </div>
+            <div class="col-md-12 col-xs-12">
+                <div class="title">
+                    <span class="pull-left">关于置换</span>
+                    <a href="" class="more">MORE</a>
+                </div>
+                <p class="active">Q：我有一台手机想换别的型号，如何操作？费用是多少？
+                   </p>
+                <p class="active"> A：您可至首页“回收置换”进行机型置换，具体费用根据您的机型系统会进行相应报价。 </p>
+                <p>Q：置换后的设备如何质保？</p>
+                <p>A：如您置换后的设备还带有手机厂商官方保修，则按此保修时间进行计算，同时尚壹修将会附带1年有限保修。对于已无手机厂商官方保修的设备尚壹修将会附带1年有限保修。（人为损坏
+                    均不保修）</p>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+<!--最新动态-->
+<div class="lastest-news container">
+    <div class="row por row-0">
+        <div class="col-md-12 col-xs-12">
+            <h2>最新动态</h2>
+            <div class="pub-line center-block"></div>
+        </div>
+        <a href="" class="more hidden-xs">MORE</a>
+    </div>
+
+    <div class="row">
+        <div class="col-md-3 col-xs-6">
+            <a href="" class="thumbnail">
+                <img src="images/img.png" alt=""/>
+                <div class="caption">
+                    <p>iPhone 8产能受限,黄牛党已经“机”可难耐了. </p>
+                </div>
+            </a>
+        </div>
+        <div class="col-md-3 col-xs-6">
+            <a href="" class="thumbnail">
+                <img src="images/img.png" alt=""/>
+                <div class="caption">
+                    <p>iPhone 8产能受限,黄牛党已经“机”可难耐了. </p>
+                </div>
+            </a>
+        </div>
+        <div class="col-md-3  col-xs-6">
+            <a href="" class="thumbnail">
+                <img src="images/img.png" alt=""/>
+                <div class="caption">
+                    <p>iPhone 8产能受限,黄牛党已经“机”可难耐了. </p>
+                </div>
+            </a>
+        </div>
+        <div class="col-md-3  col-xs-6">
+            <a href="" class="thumbnail">
+                <img src="images/img.png" alt=""/>
+                <div class="caption">
+                    <p>iPhone 8产能受限,黄牛党已经“机”可难耐了. </p>
+                </div>
+            </a>
+        </div>
+    </div>
+
+</div>
+
+
+<!--link-->
+<div class="link">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-3 col-xs-12">
+                <a href="">
+                    <img src="images/logo-1.png" alt="" class="img-responsive logo"/>
+                </a>
+            </div>
+            <div class="col-md-6 col-xs-12">
+                <ul class="ul clearfix">
+                    <li>
+                        <h4>首页</h4>
+                    </li>
+                    <li>
+                        <h4>服务项目</h4>
+                        <a href="">手机维修</a>
+                        <a href="">闲置置换</a>
+                        <a href="">修哥商城</a>
+                    </li>
+                    <li>
+                        <h4>帮助中心</h4>
+                        <a href="">用户协议</a>
+                        <a href="">意见反馈</a>
+                        <a href="">在线客服</a>
+                    </li>
+                    <li>
+                        <h4>简介</h4>
+                        <a href="">尚壹修简介</a>
+                        <a href="">企业文化</a>
+                        <a href="">优秀</a>
+                    </li>
+                    <li>
+                        <h4>答疑</h4>
+                        <a href="">为您答疑</a>
+                        <a href="">专业技巧</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="col-md-3"></div>
+        </div>
+    </div>
+</div>
+
+<!--footer-->
+<footer>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6 text-left">
+                <a href="">联系我们</a><a href="">自驾游</a><a href="">网站地图</a><a href="">版权信息</a>
+            </div>
+            <div class="col-md-6 text-right">
+                北京有限责任公司 京备1233432445
+            </div>
+        </div>
+    </div>
+</footer>
+
+
+
+<ul class="fixed-link">
+    <li class="li-0">
+        <span class="wechat dib"></span>
+        <img src="images/ewm.png" alt="" class="ewm"/>
+    </li>
+    <li class="li-1">
+        <div class="qq">
+            <span class="qq-icon dib"></span><span>010-00000</span>
+        </div>
+    </li>
+    <li class="li-2">
+        <div class="qq">
+            <span class="qq-icon dib phone-icon"></span><span>010-00000</span>
+        </div>
+    </li>
+    <li class="li-3"></li>
+</ul>
+<script>
+    $(function () {
+        $('.fixed-link .li-3').click(function () {
+            $('html,body').animate({scrollTop:'0'});
+        })
+    })
+</script>
+
+
+
+</body>
+</html>

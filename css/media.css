@@ -1,0 +1,50 @@
+
+
+@media screen and (max-width:768px){
+    .syx-sign .sign{
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+    footer a{
+        padding: 0 10px;
+    }
+    .navbar-default .navbar-toggle {
+        margin-top: 22px;
+        margin-right: 0;
+    }
+    .navbar-default .navbar-collapse {
+        border:none;
+        box-shadow: none;
+        background: rgba(255,255,255,.8);
+        margin-left: -15px;
+        margin-right: -15px;
+    }
+    .topbar-0 .navbar-nav a.a:after{
+        width:0;
+        background: transparent;
+    }
+    .reg .col-md-4 .img-circle-0:after {
+       width:60px;
+        right:-30px;
+    }
+    .reg .container-fluid .row {
+        margin-left: 0;
+        margin-right: 0;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>个人中心6</title>
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/public.css"/>
+    <link rel="stylesheet" href="css/css.css"/>
+    <script src="js/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/jquery.SuperSlide.2.1.1.js"></script>
+    <script src="js/area.js"></script>
+    <!--[if lt IE 9]>
+    <script src="https://cdn.bootcss.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+    <script src="https://cdn.bootcss.com/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+
+</head>
+<body class="bg">
+
+<div class="top">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12 text-right">
+<a href="" class="ml-0">yiyizhuzhu</a><a href="">退出</a><a href="" class="a">个人中心</a><a href="">帮助中心</a><a href="">网站导航</a>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<nav class="navbar navbar-default">
+    <div class="container">
+        <div class="navbar-header">
+            <a href="#" class="navbar-brand">
+                <img src="images/logo-0.png" alt="" class="img-responsive"/>
+            </a>
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target=".navbar-collapse" aria-expanded="false">
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+        </div>
+
+        <div class="collapse navbar-collapse">
+            <ul class="nav navbar-nav navbar-right">
+                <li class="active">
+                    <a href="">首页</a>
+                </li>
+                <li>
+                    <a href="">手机维修</a>
+                </li>
+                <li>
+                    <a href="">回收置换</a>
+                </li>
+                <li>
+                    <a href="">修哥商城</a>
+                </li>
+                <li>
+                    <a href="">关于我们</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</nav>
+
+<div class="account container">
+    <div class="row">
+        <div class="col-sm-2 col-xs-12">
+            <ul class="left clearfix">
+                <li>
+                    <a href="">我的订单</a>
+                </li>
+                <li class="active">
+                    <a href="">常用地址</a>
+                </li>
+                <li >
+                    <a href="">优惠券</a>
+                </li>
+                <li>
+                    <a href="">安全中心</a>
+                </li>
+            </ul>
+        </div>
+        <div class="col-sm-10  col-xs-12">
+            <div class="container-fluid right">
+                <div class="row">
+                    <div class="col-sm-12">
+                        <div class="t">
+                            <span class="s">新增收获地址</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-sm-8 col-xs-12">
+                        <ul class="address clearfix">
+                            <li>
+                                <div class="i pull-left">
+                                    <sub>*</sub>收货人
+                                </div>
+                                <input type="text" class="input"/>
+                            </li>
+                            <li>
+                                <div class="i pull-left">
+                                    <sub>*</sub>所在地区
+                                </div>
+                                <select name="" id="s_province" class="input pull-left select">
+                                    <option value="">省</option>
+                                </select>
+                                <select name="" id="s_city" class="input pull-left select">
+                                    <option value="">市</option>
+                                </select>
+                                <select name="" id="s_county" class="input pull-left select">
+                                    <option value="">区/县</option>
+                                </select>
+                                <div id="show"></div>
+                            </li>
+                            <li>
+                                <div class="i pull-left">
+                                    <sub>*</sub>详细地址
+                                </div>
+                                <input type="text" class="input"/>
+                            </li>
+                            <li>
+                                <div class="i pull-left">
+                                    <sub>*</sub>手机号码
+                                </div>
+                                <input type="text" class="input"/>
+                            </li>
+                            <li>
+                                <div class="i pull-left">
+                                    邮箱
+                                </div>
+                                <input type="text" class="input"/>
+                            </li>
+                            <li>
+                                <div class="i pull-left">
+                                    地址别名
+                                </div>
+                                <input type="text" class="input"/>
+                                <span class="s pull-left">
+                                    建议填写常用名称 <i>家里</i><i>公司</i>
+                                </span>
+                            </li>
+                            <li>
+                                <a href="" class="button">保存收货地址</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+</div>
+
+<script type="text/javascript">_init_area();</script>
+
+<script type="text/javascript">
+    var Gid  = document.getElementById ;
+    var showArea = function(){
+        Gid('show').innerHTML = "<h3>省" + Gid('s_province').value + " - 市" +
+                Gid('s_city').value + " - 县/区" +
+                Gid('s_county').value + "</h3>"
+    }
+    Gid('s_county').setAttribute('onchange','showArea()');
+</script>
+
+
+
+<!--link-->
+<div class="link">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-3 col-xs-12">
+                <a href="">
+                    <img src="images/logo-1.png" alt="" class="img-responsive logo"/>
+                </a>
+            </div>
+            <div class="col-md-6 col-xs-12">
+                <ul class="ul clearfix">
+                    <li>
+                        <h4>首页</h4>
+                    </li>
+                    <li>
+                        <h4>服务项目</h4>
+                        <a href="">手机维修</a>
+                        <a href="">闲置置换</a>
+                        <a href="">修哥商城</a>
+                    </li>
+                    <li>
+                        <h4>帮助中心</h4>
+                        <a href="">用户协议</a>
+                        <a href="">意见反馈</a>
+                        <a href="">在线客服</a>
+                    </li>
+                    <li>
+                        <h4>简介</h4>
+                        <a href="">尚壹修简介</a>
+                        <a href="">企业文化</a>
+                        <a href="">优秀</a>
+                    </li>
+                    <li>
+                        <h4>答疑</h4>
+                        <a href="">为您答疑</a>
+                        <a href="">专业技巧</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="col-md-3"></div>
+        </div>
+    </div>
+</div>
+
+<!--footer-->
+<footer>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6 text-left">
+                <a href="">联系我们</a><a href="">自驾游</a><a href="">网站地图</a><a href="">版权信息</a>
+            </div>
+            <div class="col-md-6 text-right">
+                北京有限责任公司 京备1233432445
+            </div>
+        </div>
+    </div>
+</footer>
+
+
+
+</body>
+</html>
